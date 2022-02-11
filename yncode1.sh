@@ -8,5 +8,6 @@
 # Declaration of functions (if any):
 
 # Main
-
+labkitip=$(ifconfig)
+echo $labkitip
 # End
