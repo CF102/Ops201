@@ -1,6 +1,6 @@
 # shebang /bin/bash
 
-# Script Name:OPsChallenge02
+# Script Name:OPS Challenge 02
 # Description of purpose:
 # Example usage:
 # Expected output:
