@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # shebang /bin/bash
 
 # Script Name:OpsChallengeCode
@@ -11,3 +12,6 @@
 labkitip=$(ifconfig)
 echo $labkitip
 # End
+=======
+
+>>>>>>> 085036dc6e981b6650773829e82a0523674c9f7d
