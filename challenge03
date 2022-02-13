@@ -1,0 +1,25 @@
+# shebang /bin/bash
+# Script Name:OpsChallenge03-Functions
+# Description of purpose:learn how to create Functions
+# Example usage:repetitious commands
+# Expected output:saving resources
+# Declaration of variables (if any):
+# Declaration of functions (if any):
+
+# Main
+
+a=$(whoami)
+
+b=$(last -F)
+
+loginhistory(){
+
+    echo $a
+    echo ""
+    echo "here is login history of users on this computer"
+    echo ""
+    echo $b
+    echo ""
+}
+
+# End
