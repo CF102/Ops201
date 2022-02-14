@@ -1,0 +1,9 @@
+# shebang /bin/bash
+
+#Script Name: output.txt
+#Author Name: Yuriy
+#Class Name: Ops201 Lab02 Task2
+#Date of Latest Revision: 14 Feb22
+#Purpose: complete and resubmit Lab02 asignment
+
+echo "Welcome to the Ubuntu dev server"
