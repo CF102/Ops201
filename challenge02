@@ -1,7 +1,7 @@
 # shebang /bin/bash
 
-# Script Name:OpsChallengeCode
-# Description of purpose:automate performance
+# Script Name:OpsChallenge02
+# Description of purpose:First Bash Script
 # Example usage:repetitious commands
 # Expected output:saving resources
 # Declaration of variables (if any):
@@ -9,7 +9,7 @@
 
 # Main
 labkitip=$(ifconfig)
-echo $labkitip
+last
 echo "Welcome to the Ubuntu dev server"
 
 # End
