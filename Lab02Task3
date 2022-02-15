@@ -1,1 +1,11 @@
+# shebang /bin/bash
 
+#Script Name: "Welcome to the Ubuntu dev server"
+#Author Name: Yuriy
+#Class Name: Ops201 Lab02 Task2
+#Date of Latest Revision: 14 Feb22
+#Purpose: complete and resubmit Lab02 asignment
+
+echo "Welcome to the Ubuntu dev server"
+
+echo "Welcome to the Ubuntu dev server-you finished Ops02"
