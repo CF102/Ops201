@@ -4,8 +4,7 @@
 # Description of purpose:script that backs up Jorge’s file to the new internal hard drive
 # Example usage:daily back up files
 # Expected output:files security copied at midnight 
-#source of bsh code: https://ubuntu.com/server/docs/backups-shell-scripts
-
+# Source of bsh code: https://ubuntu.com/server/docs/backups-shell-scripts
 
 # Main
 # Midnight backup
@@ -40,6 +39,5 @@ StartBackup(){
     echo archive_file
 }
 StartBackup
-
 
 # End
