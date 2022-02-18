@@ -1,14 +1,12 @@
-# dirlist=("dir1" "dir2" "dir3" "dir4")
-# # echo ${dirlist[*]}
-# mkdir ${dirlist[@]}
-# Main
-pd1=$(home/yuriy/Ops201/OpsChal04/dir1)
-pd2=$(home/yuriy/Ops201/OpsChal04/dir2)
-pd3=$(home/yuriy/Ops201/OpsChal04/dir3)
-pd4=$(home/yuriy/Ops201/OpsChal04/dir4)
+dirlist=("dir1" "dir2" "dir3" "dir4")
+    echo ${dirlist[*]}
+mkdir ${dirlist[@]}
 
-pdall=("pd1" "pd2" "pd3" "pd4")
-
-echo "$pdall"
-
-# End
+createFiles(){
+    touch ${dirlist[0]}/file1.txt
+    touch ${dirlist[1]}/file2.txt
+    touch ${dirlist[2]}/file3.txt
+    touch ${dirlist[3]}/file4.txt
+}
+createFiles
+#     touch /home/yuriy/Ops201/OpsChal04/dir1/file1.txt
