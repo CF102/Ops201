@@ -12,6 +12,6 @@ createFiles
 echo""
 echo "Verify creation of files"
 echo""
-ls OpsChal04_${dirlist[0]}
+ls -F OpsChal04_${dirlist[*]}
 
 #     touch /home/yuriy/Ops201/OpsChal04/dir1/file1.txt
