@@ -1,23 +1,29 @@
 #!/bin/bash
 
 # create new directory OpsChal06
-DIR="OpsChal06"
-    echo "create new directory OpsChal06"
-    mkdir "$DIR"
-    ls
-    echo "Does directory OpsChal06 exist? Use 1 for YES and 2 for NO"
-1="YES"
-2="NO"
-if ["$1"]; then 
-    echo "create new file temp06.txt"
-PATH="/home/yuriy/Ops201/OpsChallenges/OpsChal06"
-    touch $PATH/temp.txt
-#Verify file temp.txt was created
+mkdir OpsChal06
+ls
+echo "Does directory OpsChal06 exist? Use 1 for YES and 2 for NO"
+    read uservar
+    echo "You selected $uservar"
+if [ $uservar = 1 ]; then
     cd OpsChal06
-    ls
-    echo "file temp06.txt was succesfuly created in directory OpsChal06"
+    tree
+fi
+    echo  "Does directory OpsChal06 contain file temp06.txt? Use 1 for YES and 2 for NO"
+    read uservar2
+    echo "You selected $uservar2"
+if [ $uservar1 = 1 ]; then
+    break 
+else
+    echo "Create new file temp.txt"
+    touch /home/yuriy/Ops201/OpsChallenges/OpsChal06/temp.txt
+fi
+    echo "Verify file temp.txt was created"
+FILE=/home/yuriy/Ops201/OpsChallenges/OpsChal06/temp.txt/temp.txt
+if [ -f "$FILE" ]; then 
+    echo "$FILE exists"
+else 
+    echo "$FILE does not exist."
 fi
 
-if ["$2"]; then 
-    echo "Please run the command "ls" again to confirm new file temp06.txt is there"
-fi
